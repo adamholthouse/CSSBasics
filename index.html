@@ -3,23 +3,34 @@
 <head>
 	<title>My Webpage with CSS</title>
 	<style type="text/css">
-		p {
-			color:red;font-size: 200%
+		.red {
+			color:red;
 		}
 
-		h1{
-			color:pink;
+		.large {
+			font-size: 200%
 		}
 
+		#green {
+			color: green;	
+		}
+
+		.blue {
+			color: blue; text-decoration: underline;
+		}
 	</style>
 </head>
 <body>
 
-	<p>Hello this is a sentence here</p>
-	<p>Yes, this is a second sentence here</p>
+	<p class="red">Hello this is a sentence here</p>
+	<p class="large">Yes, this is a <span class="blue">second sentence</span> here</p>
 	<hr>
 
 	<h1>CSS is COOL</h1>
+	<hr>
+
+	<p id="green">This is text here</p>
+
 
 </body>
 </html>
